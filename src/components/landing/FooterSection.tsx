@@ -6,7 +6,11 @@ export default function FooterSection() {
         <div className="h-auto p-4 md:p-8 flex flex-col justify-start items-start gap-8">
           {/* Бренд */}
           <div className="self-stretch flex justify-start items-center gap-3">
-            <div className="text-center text-[#49423D] text-xl font-semibold leading-4 font-sans">ТрекФлит</div>
+            <img
+              src="https://cdn.poehali.dev/projects/11921794-47af-45d2-bf91-0364496b12a9/bucket/3a58e8a8-82f1-4ade-b927-e1c17778ed66.jpeg"
+              alt="Автогир мониторинг"
+              className="h-8 w-auto object-contain"
+            />
           </div>
           <div className="text-[rgba(73,66,61,0.90)] text-sm font-medium leading-[18px] font-sans">
             Мониторинг транспорта и умный биллинг

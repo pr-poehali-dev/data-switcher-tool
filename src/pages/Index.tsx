@@ -117,9 +117,11 @@ export default function Index() {
               <div className="w-full max-w-[calc(100%-32px)] sm:max-w-[calc(100%-48px)] md:max-w-[calc(100%-64px)] lg:max-w-[700px] lg:w-[700px] h-10 sm:h-11 md:h-12 py-1.5 sm:py-2 px-3 sm:px-4 md:px-4 pr-2 sm:pr-3 bg-[#F7F5F3] backdrop-blur-sm shadow-[0px_0px_0px_2px_white] overflow-hidden rounded-[50px] flex justify-between items-center relative z-30">
                 <div className="flex justify-center items-center">
                   <div className="flex justify-start items-center">
-                    <div className="flex flex-col justify-center text-[#2F3037] text-sm sm:text-base md:text-lg lg:text-xl font-medium leading-5 font-sans">
-                      ТрекФлит
-                    </div>
+                    <img
+                      src="https://cdn.poehali.dev/projects/11921794-47af-45d2-bf91-0364496b12a9/bucket/3a58e8a8-82f1-4ade-b927-e1c17778ed66.jpeg"
+                      alt="Автогир мониторинг"
+                      className="h-7 sm:h-8 md:h-9 w-auto object-contain"
+                    />
                   </div>
                   <div className="pl-3 sm:pl-4 md:pl-5 lg:pl-5 hidden sm:flex flex-row gap-2 sm:gap-3 md:gap-4 lg:gap-4">
                     <div className="flex justify-start items-center">
