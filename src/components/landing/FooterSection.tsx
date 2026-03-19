@@ -6,10 +6,10 @@ export default function FooterSection() {
         <div className="h-auto p-4 md:p-8 flex flex-col justify-start items-start gap-8">
           {/* Бренд */}
           <div className="self-stretch flex justify-start items-center gap-3">
-            <div className="text-center text-[#49423D] text-xl font-semibold leading-4 font-sans">Бриллиант</div>
+            <div className="text-center text-[#49423D] text-xl font-semibold leading-4 font-sans">ТрекФлит</div>
           </div>
           <div className="text-[rgba(73,66,61,0.90)] text-sm font-medium leading-[18px] font-sans">
-            Биллинг без усилий
+            Мониторинг транспорта и умный биллинг
           </div>
 
           {/* Социальные сети */}
@@ -67,13 +67,13 @@ export default function FooterSection() {
                 Тарифы
               </div>
               <div className="text-[#49423D] text-sm font-normal leading-5 font-sans cursor-pointer hover:text-[#37322F] transition-colors">
+                Мониторинг транспорта
+              </div>
+              <div className="text-[#49423D] text-sm font-normal leading-5 font-sans cursor-pointer hover:text-[#37322F] transition-colors">
+                Кабинет бухгалтера
+              </div>
+              <div className="text-[#49423D] text-sm font-normal leading-5 font-sans cursor-pointer hover:text-[#37322F] transition-colors">
                 Интеграции
-              </div>
-              <div className="text-[#49423D] text-sm font-normal leading-5 font-sans cursor-pointer hover:text-[#37322F] transition-colors">
-                Превью в реальном времени
-              </div>
-              <div className="text-[#49423D] text-sm font-normal leading-5 font-sans cursor-pointer hover:text-[#37322F] transition-colors">
-                Мульти-агентное кодирование
               </div>
             </div>
           </div>

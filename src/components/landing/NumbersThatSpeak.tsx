@@ -193,7 +193,7 @@ const NumbersThatSpeak: FC<NumbersThatSpeakProps> = ({
                           whiteSpace: "pre",
                         }}
                       >
-                        Выставлено счетов
+                        Объектов под управлением
                       </div>
                       <div
                         style={{
@@ -206,7 +206,7 @@ const NumbersThatSpeak: FC<NumbersThatSpeakProps> = ({
                           whiteSpace: "pre",
                         }}
                       >
-                        23 450 000 руб.
+                        12 400+
                       </div>
                     </div>
                   </div>

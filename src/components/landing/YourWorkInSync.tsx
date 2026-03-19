@@ -89,7 +89,7 @@ const YourWorkInSync: FC<YourWorkInSyncProps> = ({
                   whiteSpace: "nowrap",
                 }}
               >
-                Обновления команды идут плавно
+                47 объектов онлайн сейчас
               </span>
             </div>
           </div>
@@ -128,7 +128,7 @@ const YourWorkInSync: FC<YourWorkInSyncProps> = ({
                   whiteSpace: "nowrap",
                 }}
               >
-                Привет всем
+                Счёт #0041 выставлен
               </span>
             </div>
             <div
@@ -192,7 +192,7 @@ const YourWorkInSync: FC<YourWorkInSyncProps> = ({
                   whiteSpace: "nowrap",
                 }}
               >
-                А как насчет этого?
+                ТС-007 на стоянке 3ч
               </span>
             </div>
           </div>
@@ -232,7 +232,7 @@ const YourWorkInSync: FC<YourWorkInSyncProps> = ({
                   whiteSpace: "nowrap",
                 }}
               >
-                Отличная работа, команда!
+                Сформировать все счета...
               </span>
             </div>
             <div

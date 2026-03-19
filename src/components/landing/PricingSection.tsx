@@ -5,16 +5,16 @@ export default function PricingSection() {
 
   const pricing = {
     starter: {
-      monthly: 0,
-      annually: 0,
+      monthly: 290,
+      annually: 240,
     },
     professional: {
-      monthly: 1990,
-      annually: 1590,
+      monthly: 220,
+      annually: 180,
     },
     enterprise: {
-      monthly: 9990,
-      annually: 7990,
+      monthly: 150,
+      annually: 120,
     },
   };
 
@@ -42,13 +42,13 @@ export default function PricingSection() {
           </div>
 
           <div className="self-stretch text-center flex justify-center flex-col text-[#49423D] text-3xl md:text-5xl font-semibold leading-tight md:leading-[60px] font-serif tracking-tight">
-            Выберите подходящий план для вашего бизнеса
+            Тарифы по количеству объектов
           </div>
 
           <div className="self-stretch text-center text-[#605A57] text-base font-normal leading-7 font-sans">
-            Масштабируйте операции с гибкими тарифами, которые растут вместе с вашей командой.
+            Платите только за подключённые транспортные средства.
             <br />
-            Начните бесплатно, переходите на платный план когда будете готовы.
+            Чем больше парк — тем выгоднее цена за объект.
           </div>
         </div>
       </div>
@@ -120,9 +120,9 @@ export default function PricingSection() {
             <div className="flex-1 max-w-full md:max-w-none self-stretch px-6 py-5 border border-[#E0DEDB] overflow-hidden flex flex-col justify-start items-start gap-12 bg-[rgba(255,255,255,0)]">
               <div className="self-stretch flex flex-col justify-start items-center gap-9">
                 <div className="self-stretch flex flex-col justify-start items-start gap-2">
-                  <div className="text-[rgba(55,50,47,0.90)] text-lg font-medium leading-7 font-sans">Стартовый</div>
+                  <div className="text-[rgba(55,50,47,0.90)] text-lg font-medium leading-7 font-sans">До 20 объектов</div>
                   <div className="w-full max-w-[242px] text-[rgba(41,37,35,0.70)] text-sm font-normal leading-5 font-sans">
-                    Идеально для частных лиц и небольших команд, которые только начинают.
+                    Для небольших компаний и предпринимателей с малым автопарком.
                   </div>
                 </div>
 
@@ -152,7 +152,7 @@ export default function PricingSection() {
                       </span>
                     </div>
                     <div className="text-[#847971] text-sm font-medium font-sans">
-                      в {billingPeriod === "monthly" ? "месяц" : "год"}, за пользователя.
+                      руб. в {billingPeriod === "monthly" ? "месяц" : "год"} за объект.
                     </div>
                   </div>
                 </div>
@@ -167,11 +167,11 @@ export default function PricingSection() {
 
               <div className="self-stretch flex flex-col justify-start items-start gap-2">
                 {[
-                  "До 3 проектов",
-                  "Базовые инструменты документации",
-                  "Поддержка сообщества",
-                  "Стандартные шаблоны",
-                  "Базовая аналитика",
+                  "До 20 транспортных объектов",
+                  "Мониторинг в реальном времени",
+                  "Автоматическое выставление счетов",
+                  "Базовые отчёты (пробег, стоянки)",
+                  "Email-поддержка",
                 ].map((feature, index) => (
                   <div key={index} className="self-stretch flex justify-start items-center gap-[13px]">
                     <div className="w-4 h-4 relative flex items-center justify-center">
@@ -197,9 +197,9 @@ export default function PricingSection() {
             <div className="flex-1 max-w-full md:max-w-none self-stretch px-6 py-5 bg-[#37322F] border border-[rgba(55,50,47,0.12)] overflow-hidden flex flex-col justify-start items-start gap-12">
               <div className="self-stretch flex flex-col justify-start items-center gap-9">
                 <div className="self-stretch flex flex-col justify-start items-start gap-2">
-                  <div className="text-[#FBFAF9] text-lg font-medium leading-7 font-sans">Профессиональный</div>
+                  <div className="text-[#FBFAF9] text-lg font-medium leading-7 font-sans">До 100 объектов</div>
                   <div className="w-full max-w-[242px] text-[#B2AEA9] text-sm font-normal leading-5 font-sans">
-                    Расширенные возможности для растущих команд и бизнеса.
+                    Для растущих компаний с разветвлённым автопарком и несколькими клиентами.
                   </div>
                 </div>
 
@@ -229,7 +229,7 @@ export default function PricingSection() {
                       </span>
                     </div>
                     <div className="text-[#D2C6BF] text-sm font-medium font-sans">
-                      в {billingPeriod === "monthly" ? "месяц" : "год"}, за пользователя.
+                      руб. в {billingPeriod === "monthly" ? "месяц" : "год"} за объект.
                     </div>
                   </div>
                 </div>
@@ -244,14 +244,14 @@ export default function PricingSection() {
 
               <div className="self-stretch flex flex-col justify-start items-start gap-2">
                 {[
-                  "Безлимитные проекты",
-                  "Расширенные инструменты документации",
+                  "До 100 транспортных объектов",
+                  "Мониторинг в реальном времени",
+                  "Автоматическое выставление счетов",
+                  "Расширенная аналитика и отчёты",
+                  "Кабинет оператора-бухгалтера",
+                  "Уведомления о нарушениях",
                   "Приоритетная поддержка",
-                  "Пользовательские шаблоны",
-                  "Продвинутая аналитика",
-                  "Командное сотрудничество",
                   "Доступ к API",
-                  "Пользовательские интеграции",
                 ].map((feature, index) => (
                   <div key={index} className="self-stretch flex justify-start items-center gap-[13px]">
                     <div className="w-4 h-4 relative flex items-center justify-center">
@@ -275,9 +275,9 @@ export default function PricingSection() {
             <div className="flex-1 max-w-full md:max-w-none self-stretch px-6 py-5 bg-white border border-[#E0DEDB] overflow-hidden flex flex-col justify-start items-start gap-12">
               <div className="self-stretch flex flex-col justify-start items-center gap-9">
                 <div className="self-stretch flex flex-col justify-start items-start gap-2">
-                  <div className="text-[rgba(55,50,47,0.90)] text-lg font-medium leading-7 font-sans">Корпоративный</div>
+                  <div className="text-[rgba(55,50,47,0.90)] text-lg font-medium leading-7 font-sans">От 100 объектов</div>
                   <div className="w-full max-w-[242px] text-[rgba(41,37,35,0.70)] text-sm font-normal leading-5 font-sans">
-                    Полное решение для крупных организаций и предприятий.
+                    Для крупных операторов телематики с большим парком и корпоративными клиентами.
                   </div>
                 </div>
 
@@ -307,7 +307,7 @@ export default function PricingSection() {
                       </span>
                     </div>
                     <div className="text-[#847971] text-sm font-medium font-sans">
-                      в {billingPeriod === "monthly" ? "месяц" : "год"}, за пользователя.
+                      руб. в {billingPeriod === "monthly" ? "месяц" : "год"} за объект.
                     </div>
                   </div>
                 </div>
@@ -322,14 +322,14 @@ export default function PricingSection() {
 
               <div className="self-stretch flex flex-col justify-start items-start gap-2">
                 {[
-                  "Все из Профессионального",
+                  "Неограниченное число объектов",
+                  "Мониторинг в реальном времени",
+                  "Автоматический биллинг и сверка",
+                  "White-label кабинет для клиентов",
                   "Персональный менеджер",
                   "Поддержка 24/7 по телефону",
-                  "Индивидуальный онбординг",
-                  "Расширенные функции безопасности",
-                  "Интеграция SSO",
-                  "Индивидуальные контракты",
-                  "White-label решения",
+                  "Индивидуальные интеграции",
+                  "Индивидуальные условия договора",
                 ].map((feature, index) => (
                   <div key={index} className="self-stretch flex justify-start items-center gap-[13px]">
                     <div className="w-4 h-4 relative flex items-center justify-center">

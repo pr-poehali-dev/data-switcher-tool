@@ -22,18 +22,18 @@ export default function DocumentationSection() {
 
   const cards = [
     {
-      title: "Планируйте расписание",
-      description: "Исследуйте данные, создавайте дашборды,\nобъединяйте команду.",
+      title: "Карта транспорта в реальном времени",
+      description: "Видите все объекты на карте онлайн.\nМаршруты, остановки, отклонения — всё под рукой.",
       image: "/modern-dashboard-interface-with-data-visualization.jpg",
     },
     {
-      title: "От данных к инсайтам за минуты",
-      description: "Превращайте сырые данные в действенные выводы\nс помощью мощных инструментов аналитики.",
+      title: "Биллинг по количеству объектов",
+      description: "Счета формируются автоматически по числу подключённых\nтранспортных средств каждого клиента.",
       image: "/analytics-dashboard.png",
     },
     {
-      title: "Работайте вместе без усилий",
-      description: "Работайте в режиме реального времени с командой\nи делитесь инсайтами мгновенно.",
+      title: "Кабинет оператора-бухгалтера",
+      description: "Оператор видит всех клиентов, статус оплат и\nможет выставить счёт в один клик.",
       image: "/team-collaboration-interface-with-shared-workspace.jpg",
     },
   ];
@@ -64,12 +64,12 @@ export default function DocumentationSection() {
             text="Возможности платформы"
           />
           <div className="self-stretch text-center flex justify-center flex-col text-[#49423D] text-3xl md:text-5xl font-semibold leading-tight md:leading-[60px] font-sans tracking-tight">
-            Оптимизируйте бизнес-процессы
+            Всё для мониторинга и оплаты в одном месте
           </div>
           <div className="self-stretch text-center text-[#605A57] text-base font-normal leading-7 font-sans">
-            Управляйте расписанием, анализируйте данные и работайте с командой
+            Контролируйте транспорт, управляйте клиентами и выставляйте счета
             <br />
-            на одной мощной платформе.
+            на единой телематической платформе.
           </div>
         </div>
       </div>

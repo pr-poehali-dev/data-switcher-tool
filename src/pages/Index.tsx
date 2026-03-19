@@ -118,7 +118,7 @@ export default function Index() {
                 <div className="flex justify-center items-center">
                   <div className="flex justify-start items-center">
                     <div className="flex flex-col justify-center text-[#2F3037] text-sm sm:text-base md:text-lg lg:text-xl font-medium leading-5 font-sans">
-                      Бриллиант
+                      ТрекФлит
                     </div>
                   </div>
                   <div className="pl-3 sm:pl-4 md:pl-5 lg:pl-5 hidden sm:flex flex-row gap-2 sm:gap-3 md:gap-4 lg:gap-4">
@@ -154,12 +154,12 @@ export default function Index() {
               <div className="w-full max-w-[937px] lg:w-[937px] flex flex-col justify-center items-center gap-3 sm:gap-4 md:gap-5 lg:gap-6">
                 <div className="self-stretch rounded-[3px] flex flex-col justify-center items-center gap-4 sm:gap-5 md:gap-6 lg:gap-8">
                   <div className="w-full max-w-[748.71px] lg:w-[748.71px] text-center flex justify-center flex-col text-[#37322F] text-[24px] sm:text-[36px] md:text-[52px] lg:text-[80px] font-normal leading-[1.1] sm:leading-[1.15] md:leading-[1.2] lg:leading-[96px] font-serif px-2 sm:px-4 md:px-0">
-                    Автоматизация биллинга
+                    Мониторинг транспорта и биллинг под контролем
                   </div>
                   <div className="w-full max-w-[506.08px] lg:w-[506.08px] text-center flex justify-center flex-col text-[rgba(55,50,47,0.80)] sm:text-lg md:text-xl leading-[1.4] sm:leading-[1.45] md:leading-[1.5] lg:leading-7 font-sans px-2 sm:px-4 md:px-0 lg:text-lg font-medium text-sm">
-                    Оптимизируйте процесс выставления счетов
+                    Телематическая платформа для управления парком,
                     <br className="hidden sm:block" />
-                    с бесшовной автоматизацией от Бриллиант.
+                    автоматического выставления счетов и контроля оплаты.
                   </div>
                 </div>
               </div>
@@ -246,22 +246,22 @@ export default function Index() {
 
                 <div className="flex-1 px-0 sm:px-2 md:px-0 flex flex-col md:flex-row justify-center items-stretch gap-0">
                   <FeatureCard
-                    title="Планирование расписания"
-                    description="Управляйте подписками клиентов и выставлением счетов с помощью автоматизированных инструментов."
+                    title="Мониторинг объектов онлайн"
+                    description="Отслеживайте местоположение, скорость и статус каждого транспортного средства в реальном времени."
                     isActive={activeCard === 0}
                     progress={activeCard === 0 ? progress : 0}
                     onClick={() => handleCardClick(0)}
                   />
                   <FeatureCard
-                    title="Аналитика и инсайты"
-                    description="Превращайте бизнес-данные в практические выводы с помощью аналитики в реальном времени."
+                    title="Автоматический биллинг"
+                    description="Счета формируются по количеству объектов — оператор-бухгалтер видит всё в одном окне."
                     isActive={activeCard === 1}
                     progress={activeCard === 1 ? progress : 0}
                     onClick={() => handleCardClick(1)}
                   />
                   <FeatureCard
-                    title="Командная работа"
-                    description="Держите команду в курсе с общими дашбордами и совместными рабочими процессами."
+                    title="Отчёты и аналитика"
+                    description="Пробег, стоянки, нарушения скоростного режима — все данные по парку в удобных отчётах."
                     isActive={activeCard === 2}
                     progress={activeCard === 2 ? progress : 0}
                     onClick={() => handleCardClick(2)}
@@ -291,15 +291,15 @@ export default function Index() {
                           <rect x="7" y="1" width="4" height="8" stroke="#37322F" strokeWidth="1" fill="none" />
                         </svg>
                       }
-                      text="Доверие"
+                      text="Доверие клиентов"
                     />
                     <div className="w-full max-w-[472.55px] text-center flex justify-center flex-col text-[#49423D] text-xl sm:text-2xl md:text-3xl lg:text-5xl font-semibold leading-tight md:leading-[60px] font-sans tracking-tight">
-                      Уверенность, подкрепленная результатами
+                      Сотни компаний контролируют свой транспорт с нами
                     </div>
                     <div className="self-stretch text-center text-[#605A57] text-sm sm:text-base font-normal leading-6 sm:leading-7 font-sans">
-                      Наши клиенты достигают большего каждый день,
+                      От небольших автопарков до крупных логистических компаний —
                       <br className="hidden sm:block" />
-                      потому что их инструменты просты, мощны и понятны.
+                      наша платформа масштабируется под любые задачи.
                     </div>
                   </div>
                 </div>
@@ -362,12 +362,12 @@ export default function Index() {
                       text="Возможности"
                     />
                     <div className="w-full max-w-[598.06px] lg:w-[598.06px] text-center flex justify-center flex-col text-[#49423D] text-xl sm:text-2xl md:text-3xl lg:text-5xl font-semibold leading-tight md:leading-[60px] font-sans tracking-tight">
-                      Создано для ясности и сосредоточенной работы
+                      Всё под контролем — транспорт и финансы
                     </div>
                     <div className="self-stretch text-center text-[#605A57] text-sm sm:text-base font-normal leading-6 sm:leading-7 font-sans">
-                      Оставайтесь сфокусированными с инструментами, которые организуют,
+                      Оператор-бухгалтер видит каждый объект, каждый счёт и статус оплаты
                       <br />
-                      связывают и превращают информацию в уверенные решения.
+                      в едином удобном интерфейсе.
                     </div>
                   </div>
                 </div>
@@ -388,10 +388,10 @@ export default function Index() {
                     <div className="border-b border-r-0 md:border-r border-[rgba(55,50,47,0.12)] p-4 sm:p-6 md:p-8 lg:p-12 flex flex-col justify-start items-start gap-4 sm:gap-6">
                       <div className="flex flex-col gap-2">
                         <h3 className="text-[#37322F] text-lg sm:text-xl font-semibold leading-tight font-sans">
-                          Умно. Просто. Гениально.
+                          Уведомления и события по объектам
                         </h3>
                         <p className="text-[#605A57] text-sm md:text-base font-normal leading-relaxed font-sans">
-                          Ваши данные красиво организованы, чтобы вы видели все четко без лишнего шума.
+                          Превышение скорости, геозоны, выставленные счета — все события в одном потоке, без лишнего шума.
                         </p>
                       </div>
                       <div className="w-full h-[200px] sm:h-[250px] md:h-[300px] rounded-lg flex items-center justify-center overflow-hidden">
@@ -407,10 +407,10 @@ export default function Index() {
                     <div className="border-b border-[rgba(55,50,47,0.12)] p-4 sm:p-6 md:p-8 lg:p-12 flex flex-col justify-start items-start gap-4 sm:gap-6">
                       <div className="flex flex-col gap-2">
                         <h3 className="text-[#37322F] font-semibold leading-tight font-sans text-lg sm:text-xl">
-                          Ваша работа синхронизирована
+                          Биллинг в один клик
                         </h3>
                         <p className="text-[#605A57] text-sm md:text-base font-normal leading-relaxed font-sans">
-                          Каждое обновление мгновенно передается вашей команде, делая совместную работу легкой и быстрой.
+                          Оператор формирует счёт по всем клиентам за секунды — система сама считает объекты и сумму.
                         </p>
                       </div>
                       <div className="w-full h-[200px] sm:h-[250px] md:h-[300px] rounded-lg flex overflow-hidden text-right items-center justify-center">
@@ -426,10 +426,10 @@ export default function Index() {
                     <div className="border-r-0 md:border-r border-[rgba(55,50,47,0.12)] p-4 sm:p-6 md:p-8 lg:p-12 flex flex-col justify-start items-start gap-4 sm:gap-6 bg-transparent">
                       <div className="flex flex-col gap-2">
                         <h3 className="text-[#37322F] text-lg sm:text-xl font-semibold leading-tight font-sans">
-                          Легкая интеграция
+                          Подключение GPS-трекеров
                         </h3>
                         <p className="text-[#605A57] text-sm md:text-base font-normal leading-relaxed font-sans">
-                          Все ваши любимые инструменты подключаются в одном месте и работают слаженно.
+                          Поддерживаем популярные протоколы и устройства — подключение без программирования.
                         </p>
                       </div>
                       <div className="w-full h-[200px] sm:h-[250px] md:h-[300px] rounded-lg flex overflow-hidden justify-center items-center relative bg-transparent">
@@ -443,10 +443,10 @@ export default function Index() {
                     <div className="p-4 sm:p-6 md:p-8 lg:p-12 flex flex-col justify-start items-start gap-4 sm:gap-6">
                       <div className="flex flex-col gap-2">
                         <h3 className="text-[#37322F] text-lg sm:text-xl font-semibold leading-tight font-sans">
-                          Цифры, которые говорят
+                          Масштаб вашего парка в цифрах
                         </h3>
                         <p className="text-[#605A57] text-sm md:text-base font-normal leading-relaxed font-sans">
-                          Отслеживайте рост с точностью и превращайте данные в решения, которым можно доверять.
+                          Отслеживайте рост парка, динамику оплат и загрузку транспорта в реальном времени.
                         </p>
                       </div>
                       <div className="w-full h-[200px] sm:h-[250px] md:h-[300px] rounded-lg flex overflow-hidden items-center justify-center relative">
